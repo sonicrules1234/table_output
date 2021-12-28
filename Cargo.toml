@@ -1,0 +1,19 @@
+[package]
+name = "table_output"
+version = "0.1.0"
+edition = "2021"
+authors = ["Westly Ward <sonicrules1234@gmail.com>"]
+description = "Make a table once, output to html, csv, json, and/or a pretty printed table meant for your terminal"
+license-file = "LICENSE"
+repository = "https://github.com/sonicrules1234/table_output"
+readme = "README.md"
+homepage = "https://github.com/sonicrules1234/table_output"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0.126", features = ["derive"] }
+csv = "1.1.6"
+serde_json = "1.0.73"
+textwrap = "0.14.2"
+html-escape = "0.2.9"
+termsize = "0.1.6"
